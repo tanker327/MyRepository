@@ -5,7 +5,8 @@ public class HelloWorld {
 	public void setName(String name){
 		this.name = name;
 	}
-	public void print(){
+	public String print(){
 		System.out.println("Hello world!"+ this.name);
+		return "Hello world! "+ this.name;
 	}
 }
